@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Pipenv/Poetry
+Pipfile*
+poetry.lock
+__pycache__/
+
+# pip-tools files
+requirements.txt
+
+# Python cache and build artifacts
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+*.db
